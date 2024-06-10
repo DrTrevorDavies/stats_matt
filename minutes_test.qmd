@@ -1,5 +1,5 @@
 ---
-title: "test"
+title: "Minutes of stats with Matt course"
 format: html
 editor: visual
 ---
