@@ -1,6 +1,6 @@
 ---
 title: "Ongoing minutes of stats with Matt course"
-format: html
+format: pdf
 editor: visual
 ---
 
