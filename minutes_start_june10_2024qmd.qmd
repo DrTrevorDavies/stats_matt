@@ -1,0 +1,49 @@
+---
+title: "Ongoing minutes of stats with Matt course"
+format: html
+editor: visual
+---
+
+## Setting up Github
+
+Unless I set up the project on GIthub first, I need to link each project to github via the usethis() package
+
+A good website to install and get github running is: <https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r>
+
+## Purpose of Github
+
+There are two layers of GIT. **GIT** and **Hub**. Git, by itself you can use on your local machine. It's a very useful version control tool. You will learn while developing bayesian models that it's quite easy to change a model slightly and essentially *break* it and it that can sometimes be difficult to fix because there isn't a line-by-line debugging ability in Bayesian models as there is for R code. It's usually a silly indexing or minor syntax issue but it can be frustrating nevertheless.
+
+GIT allows you to take *snapshots* of your work so you can go back to those snapshots if needed. The second part **HUB** describes a repository that is online and off your local machine. Besides the obvious benefit of have backups off your machine, it also allows for collaboration between people and a central place to deposit new work.
+
+So, install GIT and link it to your new github.com account!
+
+## June 10, 2024
+
+### Keogh
+
+-   Today we spoke about the Keogh and power issues. It appears as if power hookup is not viable so we will do an energy audit and make the power support at the Keogh more efficient up at the festivity counter site. Some ideas were to install lithium batteries that could easily be swapped and charged every 2-3 days. Possibly have a star link that could report battery capacity.
+
+### Statistics
+
+-   We continued to go through the fisheries book: <https://bookdown.org/Joseph_Hightower/bayesianfish/introduction.html>
+
+-   We went through chapter 4 and discussed model diagnostics and model fitting issues in particular in the context of informative priors.
+
+-   We decided that we will continue going through the course with the differences that plotting will use:
+
+    -   ggplot2
+
+    -   jagsUI: <https://cran.r-project.org/web/packages/jagsUI/index.html>
+
+## Action items for June 17, 2024
+
+### Matt
+
+1.  Do exercises in Chapter 4 of fish book using jagsUI and ggplot2 where applicable
+2.  Read Install git and link to github. See link at top of this page or <https://swcarpentry.github.io/git-novice/index.html#installing-git>
+
+### Trevor
+
+1.  Get Keogh WO completed for resistivity counter repairs
+2.  Invite Matt to github repository.
