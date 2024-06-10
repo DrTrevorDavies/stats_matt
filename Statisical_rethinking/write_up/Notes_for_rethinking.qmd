@@ -1,0 +1,44 @@
+---
+title: "Project notes"
+author: "Trevor Davies"
+format: html
+editor: visual
+---
+
+## Introduction
+
+This write-up is to keep track of notes and thoughts for the joint learning with Matt for the book/course **Statistical Rethinking: A Bayesian Course with examples in R and Stan 2nd edition.**
+
+April 9th, 2024
+
+-   Read preface & chapter 1
+
+-   Make notes using Quartro
+
+-   Ensure correct installation of R, Rstudio, and STAN
+
+## Notes on prefece
+
+-   See page xvi for packages I need to install.
+-   install rstan first and install stan from <https://mc-stan.org>
+-   Pay particular attention to 'installing the rethinking R package"
+-   install packags needed for book. install.packages(c("coda", "mvtnorm", "devtools", "dagitty")); library(devtools); devtools:install_github("rmcelreath/rethinking")
+
+## Chapter 1
+
+-   Models are unthinking constructs that we use to understand that world that just do what they tell them without any foresight or wisdom
+-   What is Cross-validaton and information Criteria used for?
+-   what has cross validation shown us about (overly) complex models?
+-   how does the point above relate to the saying: "Fitting is easy; prediction is hard"? LF sturgeon example
+-   BIC failure (eg. cusk)
+
+### 1.3.3: Multilevel models
+
+-   also known as hierarchical, random effects, varying effects, mixed effects models (partial pooling)
+-   Used when the researcher recognizes clusters or groups of measurements that may differ from one another (example could be comparing GPAs between cities; schools may be an important cluster within a city)
+
+Question: Why should multilevel regression be the default form of regression?
+
+## Plan for next week:
+
+Read: Introduction to Bayesian Modeling and Inference for Fisheries Scientists (<https://doi.org/10.1002/fsh.10038>)
